@@ -1,0 +1,23 @@
+#particles-js{
+    position:absolute;
+    height:200vh;
+  
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#boton{
+    position: absolute;
+    z-index: 50;
+    top:300px;
+}
+
+
+@media screen and (min-width: 360px){
+    #particles-js{
+       width:100%;
+    }    
+
+}
